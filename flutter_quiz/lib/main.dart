@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_quiz/view/Homepage.dart';
+
+
+void main() {
+  runApp(const QuizApp());
+}
+
+class QuizApp extends StatelessWidget {
+  const QuizApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage()
+    );
+  }
+}
